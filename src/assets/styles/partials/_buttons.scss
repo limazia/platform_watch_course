@@ -1,0 +1,23 @@
+.btn-discord,
+.btn-discord:focus,
+.btn-discord:active,
+.btn-discord:active:focus:not(:disabled):not(.disabled) {
+  color: rgba(245, 244, 246, 1);
+  background: rgba(24, 22, 31, 1);
+  border-color: rgba(24, 22, 31, 1);
+  height: 46px;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  transition: 0.5s ease;
+
+  &:hover {
+    color: rgba(245, 244, 246, 1);
+    background: #3935b5;
+    border-color: #3935b5;
+  }
+
+  &:disabled,
+  button[disabled] {
+    cursor: not-allowed;
+  }
+}

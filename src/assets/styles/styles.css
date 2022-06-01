@@ -1,0 +1,125 @@
+.navbar-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.navbar-main .navbar-brand img,
+.navbar-main .navbar-brand svg {
+  max-width: 100%;
+  width: 300px;
+}
+
+.card {
+  word-wrap: break-word;
+  background-clip: border-box;
+  background: transparent;
+}
+
+.card,
+.card-header,
+.card-body,
+.card-footer {
+  box-shadow: none;
+  border: none;
+}
+
+.card-video {
+  margin: 0;
+  padding: 0;
+}
+.card-video .card-body {
+  padding: 0;
+}
+.card-video .card-body iframe {
+  max-width: 100%;
+  width: 100%;
+  height: 412px;
+  background-color: rgb(46, 42, 60);
+  border-radius: 0.75rem;
+}
+
+.card-list-classes .card-body {
+  display: flex;
+  align-items: center;
+  background-color: rgb(24, 22, 31);
+  height: 100%;
+  gap: 0.75rem;
+  border-radius: 0.5rem;
+  border: none;
+  width: 20rem;
+}
+.card-list-classes .card-body .info {
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+.card-list-classes .card-body .info small {
+  color: rgb(141, 136, 170);
+}
+.card-list-classes .card-body .info small.soon {
+  color: rgb(73, 68, 95);
+}
+.card-list-classes .card-body .info p {
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 1.3rem;
+}
+.card-list-classes .card-body .info p.inactive {
+  color: rgb(141, 136, 170);
+}
+.card-list-classes .card-body .info p.active {
+  color: rgb(255, 255, 255);
+}
+.card-list-classes .card-body .info p.soon {
+  color: rgb(73, 68, 95);
+}
+.card-list-classes .card-body .info .badge-soon {
+  color: rgb(240, 138, 91);
+  background-color: rgb(46, 42, 60);
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+.card-list-classes .card-body .icon i {
+  font-size: 1.1rem;
+  color: #fff;
+}
+.card-list-classes .card-body .icon i.play {
+  color: rgb(91, 169, 240);
+}
+.card-list-classes .card-body .icon i.active {
+  color: rgb(248, 42, 146);
+}
+.card-list-classes .card-body .icon i.soon {
+  color: rgb(73, 68, 95);
+}
+
+.btn-discord,
+.btn-discord:focus,
+.btn-discord:active,
+.btn-discord:active:focus:not(:disabled):not(.disabled) {
+  color: rgb(245, 244, 246);
+  background: rgb(24, 22, 31);
+  border-color: rgb(24, 22, 31);
+  height: 46px;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  transition: 0.5s ease;
+}
+.btn-discord:hover,
+.btn-discord:focus:hover,
+.btn-discord:active:hover,
+.btn-discord:active:focus:not(:disabled):not(.disabled):hover {
+  color: rgb(245, 244, 246);
+  background: #3935b5;
+  border-color: #3935b5;
+}
+.btn-discord:disabled,
+.btn-discord button[disabled],
+.btn-discord:focus:disabled,
+.btn-discord:focus button[disabled],
+.btn-discord:active:disabled,
+.btn-discord:active button[disabled],
+.btn-discord:active:focus:not(:disabled):not(.disabled):disabled,
+.btn-discord:active:focus:not(:disabled):not(.disabled) button[disabled] {
+  cursor: not-allowed;
+}/*# sourceMappingURL=styles.css.map */
